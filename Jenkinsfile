@@ -2,7 +2,7 @@ pipeline {
     agent none 
     environment {
         registry = "13mdistefano/go_server"
-        docker_user = "linhbngo"
+        docker_user = "13mdistefano"
         docker_app = "go_server"
         GOCACHE = "/tmp"
     }
